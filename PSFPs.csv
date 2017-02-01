@@ -1,4 +1,4 @@
-UID,Name,state,type,lambda_ex,lambda_em,E,QY,brightness,Aggregation,pka,initialState,bleach,mature,lifetime,DOI
+UID,Name,state,type,lambda_ex,lambda_em,E,QY,brightness,Aggregation,pka,initialState,bleach,mature,addgene,lifetime,DOI
 kaede_1,Kaede,Green,pc,508,518,98800,0.88,86.9,Tetramer,5.6,1,,,,10.1073/pnas.202320599 
 kaede_2,Kaede,Red,pc,572,580,60400,0.33,19.9,Tetramer,5.6,0,,,,10.1073/pnas.202320599 
 kikgr1_1,KikGR1,Green,pc,507,517,53700,0.7,37.6,Tetramer,7.8,1,,,,10.1038/sj.embor.7400361 
