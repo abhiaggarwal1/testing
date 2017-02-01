@@ -37,8 +37,8 @@ var tableStrings = {
 	"bleach" 	: "Bleaching (s)",
 	"mature" 	: "Maturation (min)",
 	"lifetime" 	: "Lifetime (ns)",
-	"Addgene"	: "Addgene Plasmid #",
-	"RefNum"	: "Reference"
+	"RefNum"	: "Reference",
+	"Addgene"	: "Addgene Plasmid #"
 }
 
 //Protein classes for tables
