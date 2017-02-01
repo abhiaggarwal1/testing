@@ -1,15 +1,7 @@
-body.vispage {
+body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-weight: 300;
 	width: 1100px;
-	margin: auto;
-	padding-top:20px;
-}
-
-body.toppage {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	font-weight: 300;
-	width: 1000px;
 	margin: auto;
 	padding-top:20px;
 }
@@ -118,17 +110,6 @@ circle {
 	position: relative;
 	float: right;
 	width: 310px;
-}
-
-.indexleft {
-	position: relative;
-	float: left;
-	text-align: center;
-}
-.indexright {
-	position: relative;
-	float: right;
-	text-align: center;
 }
 
 #blurb {
