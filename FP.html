@@ -6,16 +6,24 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.3.custom.min.css">
     <link rel="stylesheet" type="text/css" href="css/sliders.css">
-    <script src="http://code.jquery.com/jquery-1.9.1.js" charset="utf-8"></script>
-    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" charset="utf-8"></script>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/jQRangeSlider-min.js"></script>
-	<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
-	<script src="js/ga.js"></script>
-	
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90571848-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </head>
 <body class="vispage">
-	<h1 align="middle">Photoswitchable Fluorescent Protein Properties</h1>
+	<h1 align="middle">Fluorescent protein properties<span id="doalittledance">&nbsp;</span></h1>
 	<div class="cf">
 	<div class="left">
 		
@@ -47,7 +55,8 @@
 			  <input type="radio" id="Xpka" name="Xradio" value="pka"/><label for="Xpka">pKa</label>
 			  <input type="radio" id="Xbleach" name="Xradio" value="bleach"/><label for="Xbleach">Stability</label>
 			  <input type="radio" id="Xmature" name="Xradio" value="mature"/><label for="Xmature">Maturation</label>
-			</div>
+			  <input type="radio" id="Xlifetime" name="Xradio" value="lifetime"/><label for="Xlifetime">Lifetime</label>
+			  </div>
 			</div>
 
 			<div class="radioboxes">
@@ -62,26 +71,28 @@
 			  <input type="radio" id="Ypka" name="Yradio" value="pka"/><label for="Ypka">pKa</label>
 			  <input type="radio" id="Ybleach" name="Yradio" value="bleach"/><label for="Ybleach">Stability</label>
 			  <input type="radio" id="Ymature" name="Yradio" value="mature"/><label for="Ymature">Maturation</label>
+			  <input type="radio" id="Ylifetime" name="Yradio" value="lifetime"/><label for="Ylifetime">Lifetime</label>
 			</div>
 			</div>
 		</div>
 
 	</div>
 	</div>
-	<p id="blurb">Each fluorescent protein state is initially plotted with excitation wavelength on the x-axis and emission wavelength on the y-axis. The color is set 
+	<p id="blurb">Each fluorescent protein begins plotted with excitation wavelength on the x-axis and emission wavelength on the y-axis. The color is set 
 		based on its emission wavelength, and fades to gray as the brightness (product of exctinction coefficient and quantum yield) decreases. 
-		Photoconvertible proteins (e.g. green to red) are drawn as sqaures, with the different states connected by arrows. The color of the arrow corresponds to the switching wavelength.
-		Photoactivatible proteins (e.g. off to on) are drawn as circles; the circle boundary is colored according to the switching wavelength. Dashed boundaries indicate
-		proteins that are reversibly photoswitchable (e.g. off to on to off).
+		Intrinsically fluorescent proteins are shown as circles and proteins requiring an extrinisc cofactor are shown as squares. Dimeric proteins are
+		indicated with a 2 inside the symbol; tandem dimeric proteins are shown with a t inside the symbol.
 		Mouseover each circle to see info on that protein or click on any datapoint to see the corresponding reference on PubMed.  You can zoom using the mouse scroll wheel and pan by clicking and dragging. Use the filter sliders at the top right to select a subset of fluorescent proteins based on certain criteria.  Use the X and Y axis toggle boxes to change what is plotted on each axis.</p>
+		
+		<p>Source code for this page, including all the raw data, is available at <a href="https://github.com/FPvisualization/fpvisualization.github.io">Github</a>. If you would like to add data or want to make edits to the page, please submit a pull request there. You can add an issue to report bugs or to submit a feature request.</p>
 	<div id="table"></div>	
 	<h4>Bibliography</h4>
 	<div id="bibliography" class="bibliography"></div>
 	<div class="footer">
 		<p>Developed by Talley Lambert and Kurt Thorn</p>
-		<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
+		<a rel="license" href="https://github.com/FPvisualization/fpvisualization.github.io/blob/master/LICENSE">This work is licensed under the MIT license.</a>.
 	</div>
 	
 </body>
-<script type="text/javascript" src="js/psfpvis.js"></script>
+<script type="text/javascript" src="js/fpvis.js"></script>
 </html>
