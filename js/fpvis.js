@@ -38,7 +38,7 @@ var tableStrings = {
 	"mature" 	: "Maturation (min)",
 	"lifetime" 	: "Lifetime (ns)",
 	"RefNum"	: "Reference",
-	"addgene"	: "Addgene Plasmid ##"
+	"addgene"	: "Addgene Plasmid #"
 }
 
 //Protein classes for tables
