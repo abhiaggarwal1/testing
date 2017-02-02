@@ -40,6 +40,7 @@ var tableStrings = {
 	"bleach" 	: "t<sub>bleach</sub> (s)",
 	"mature" 	: "t<sub>mature</sub> (min)",
 	"transits"	: "Transitions",
+	"addgene"	: "Addgene Plasmid ##"
 	"RefNum"	: "Ref."
 }
 
