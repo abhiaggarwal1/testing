@@ -1,5 +1,6 @@
 Name,lambda_ex,lambda_em,stokes,E,QY,brightness,agg,type,pka,bleach,mature,lifetime,addgene,DOI
 Sirius,888,424,69,15000,0.28,3.8,m,i,8,,,,hi,10.1038/nmeth.1317
+Siriuss,888,424,69,15000,0.28,3.8,m,i,8,,,,hi,10.1038/nmeth.1317
 Azurite,383,450,67,26200,0.55,14.4,m,i,5,33,18,8.4,,10.1038/nbt1264 10.1016/j.chembiol.2008.08.006
 EBFP2,383,448,65,32000,0.56,18,m,i,4.5,55,25,3,,10.1021/bi700199g 10.1016/j.chembiol.2008.08.006
 mKalama1,385,456,71,36000,0.45,16,m,i,5.5,2.5,,,,10.1021/bi700199g
